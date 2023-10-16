@@ -37,7 +37,7 @@ function verificarChute() {
 }
 
 function gerarNumeroAleatorio() {
-    let = numeroEscolhido = parseInt(Math.random() * 3 + 1)
+    let = numeroEscolhido = parseInt(Math.random() * 10 + 1)
     let quantidadeDeElementosNaLista = listaDeNumerosSorteados.length
     
     if (quantidadeDeElementosNaLista == 3){
